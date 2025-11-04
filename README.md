@@ -15,6 +15,13 @@ pip install -e .
 
 This exposes a CLI named `taskscheduler`.
 
+- Or install via requirements files:
+
+```
+pip install -r requirements.txt       # core package
+pip install -r requirements-ui.txt    # core + UI extras
+```
+
 ## Quick start
 
 Python API:
