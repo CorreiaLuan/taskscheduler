@@ -102,3 +102,34 @@ launch_ui()
 Notes:
 - UI requires Streamlit; use the `[ui]` extra.
 - Some operations may require appropriate permissions in Windows Task Scheduler.
+
+## Install From GitHub
+
+If you haven't published to PyPI yet, you can install directly from your GitHub repo.
+
+- Latest from `main` branch:
+
+```
+pip install "taskscheduler @ git+https://github.com/CorreiaLuan/taskscheduler.git@main"
+```
+
+- With UI extras:
+
+```
+pip install "taskscheduler[ui] @ git+https://github.com/CorreiaLuan/taskscheduler.git@main"
+```
+
+- From a tagged release (recommended):
+
+```
+pip install "taskscheduler @ git+https://github.com/CorreiaLuan/taskscheduler.git@v0.1.0"
+pip install "taskscheduler[ui] @ git+https://github.com/CorreiaLuan/taskscheduler.git@v0.1.0"
+```
+
+- Upgrade to latest:
+
+```
+pip install -U "taskscheduler @ git+https://github.com/CorreiaLuan/taskscheduler.git@main"
+```
+
+Repository URL: https://github.com/CorreiaLuan/taskscheduler.git
